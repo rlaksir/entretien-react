@@ -1,0 +1,162 @@
+.f-div{
+    background-color: #ff6200;
+    display: flex;
+    margin-top: 1.65%;
+    height: 100%;
+}
+
+.s-div{
+    background-color: white;
+    display: flex;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    width: 80%;
+    position: relative;
+}
+
+.t-div{
+    background-color: white;
+    display: flex;
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-bottom: 7%;
+    width: 500px;
+    height: 10%;
+    position: relative;
+}
+
+.c-title{
+    color: #ff6200;
+    width: 500px;
+    height: 10px;
+    font-size: 16px;
+    font-family: Arial,sans-serif;
+}
+
+.c-hr{
+    color: #ff6200;
+    border: 0.1px solid;
+    width: 60px;
+    margin-left: 0%;
+}
+
+.c-description{
+    margin-top: 20%;
+    margin-left: -49%;
+    width: 70%;
+}
+
+.desc{
+    font-size: 15px;
+    font-family: Arial,sans-serif;
+}
+
+.h2-or{
+    color: #ff6200;
+    font-size: 15px;
+    font-family: Arial,sans-serif;
+}
+
+.c-link{
+    color: #525199;
+    font-size: 16px;
+}
+
+/* @media screen and (min-width: 45.5em){
+    .f-div .c-description {
+        min-height: calc(581em/16);
+    }
+} */
+
+@media screen and (min-width: 45.5em){
+    .f-div {
+        flex-direction: column;
+        margin-top: -6.8%;
+    }
+
+    .t-div{
+        width: 50%;
+    }
+
+    .c-description{
+        margin-top: 28%;
+        margin-left: -49%;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 51.25em){
+    .f-div {
+        margin-top: -1.8%;
+        flex-direction: column;
+    }
+
+    .t-div{
+        width: 50%;
+    }
+
+    .c-description{
+        margin-top: 30%;
+        margin-left: -49%;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 57em){
+    .f-div {
+        margin-top: 0%;
+        flex-direction: column;
+    }
+
+    .t-div{
+        width: 50%;
+    }
+
+    .c-description{
+        margin-top: 30%;
+        margin-left: -49%;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 33.75em){
+    .f-div {
+        margin-top: 1%;
+        flex-direction: column;
+    }
+
+    .t-div{
+        width: 50%;
+    }
+
+    .c-description{
+        margin-top: 45%;
+        margin-left: -49%;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 25.75em){
+    .c-description{
+        margin-top: 55%;
+        margin-left: -49%;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 64em){
+    .f-div{
+        background-color: #ff6200;
+        display: flex;
+        margin-top: 0.002%;
+        height: 100%;
+    }
+
+    .c-description{
+        margin-top: 20%;
+        margin-left: -49%;
+        width: 70%;
+    }
+    
+}
