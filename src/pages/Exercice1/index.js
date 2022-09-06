@@ -1,10 +1,8 @@
 import React from "react";
-// import img from "../assets/ing-light.png";
 import "./Exercice1.css";
 import Topbar from "../../components/topbar";
 import Intro from "../../components/intro";
-import Changements from "../../components/changements";
-import Solution from "../../components/solution";
+import Content from "../../components/content";
 import Footer from "../../components/footer";
 
 function Exercice1() {
@@ -12,8 +10,7 @@ function Exercice1() {
     <>
       <Topbar />
       <Intro />
-      <Changements />
-      <Solution />
+      <Content />
       <Footer />
     </>
   );

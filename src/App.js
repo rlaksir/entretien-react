@@ -7,7 +7,6 @@ import {
 } from "react-router-dom";
 import Exercice1 from "./pages/Exercice1";
 import Exercice2 from "./pages/Exercice2";
-import Bonus from "./pages/Bonus";
 import "./App.css";
 
 function App() {
@@ -19,9 +18,6 @@ function App() {
         </Route>
         <Route path="/exercice2">
           <Exercice2 />
-        </Route>
-        <Route path="/bonus">
-          <Bonus />
         </Route>
         <Redirect to="/exercice1" />
       </Switch>

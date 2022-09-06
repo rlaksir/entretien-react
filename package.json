@@ -6,7 +6,10 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.1",
     "@testing-library/user-event": "^7.2.1",
+    "bootstrap": "^5.2.0",
     "react": "^16.12.0",
+    "react-bootstrap": "^2.5.0",
+    "react-bootstrap-icons": "^1.8.4",
     "react-dom": "^16.12.0",
     "react-icons": "^4.4.0",
     "react-router-dom": "^5.1.2",
@@ -14,8 +17,8 @@
     "styled-components": "^5.3.5"
   },
   "scripts": {
+    "build": "webpack",
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -35,9 +38,10 @@
     ]
   },
   "devDependencies": {
-    "html-webpack-plugin": "^5.5.0",
-    "webpack": "^4.41.5",
-    "webpack-cli": "^4.10.0",
-    "webpack-dev-server": "^4.10.1"
+    "@babel/core": "^7.19.0",
+    "@babel/preset-env": "^7.19.0",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^8.2.5",
+    "webpack-cli": "^4.10.0"
   }
 }
