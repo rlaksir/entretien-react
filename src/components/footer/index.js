@@ -18,7 +18,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="/"
-                        style={{ "text-decoration": "none", color: "#231F40" }}
+                        style={{ textDecoration: "none", color: "#231F40" }}
                       >
                         Qui est ING ?
                       </a>
@@ -26,7 +26,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="/"
-                        style={{ "text-decoration": "none", color: "#231F40" }}
+                        style={{ textDecoration: "none", color: "#231F40" }}
                       >
                         Notre actualité
                       </a>
@@ -34,7 +34,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="/"
-                        style={{ "text-decoration": "none", color: "#231F40" }}
+                        style={{ textDecoration: "none", color: "#231F40" }}
                       >
                         Nous rejoindre
                       </a>
@@ -52,7 +52,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="/"
-                        style={{ "text-decoration": "none", color: "#231F40" }}
+                        style={{ textDecoration: "none", color: "#231F40" }}
                       >
                         Espace Client
                       </a>
@@ -60,7 +60,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="/"
-                        style={{ "text-decoration": "none", color: "#231F40" }}
+                        style={{ textDecoration: "none", color: "#231F40" }}
                       >
                         La banque en ligne by ING
                       </a>
@@ -68,7 +68,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="/"
-                        style={{ "text-decoration": "none", color: "#231F40" }}
+                        style={{ textDecoration: "none", color: "#231F40" }}
                       >
                         Tarifs et modalités
                       </a>
@@ -76,7 +76,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="/"
-                        style={{ "text-decoration": "none", color: "#231F40" }}
+                        style={{ textDecoration: "none", color: "#231F40" }}
                       >
                         FAQ
                       </a>
@@ -84,7 +84,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="/"
-                        style={{ "text-decoration": "none", color: "#231F40" }}
+                        style={{ textDecoration: "none", color: "#231F40" }}
                       >
                         Le Web Café
                       </a>
@@ -92,7 +92,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="/"
-                        style={{ "text-decoration": "none", color: "#231F40" }}
+                        style={{ textDecoration: "none", color: "#231F40" }}
                       >
                         Nous contacter
                       </a>
