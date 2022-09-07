@@ -86,7 +86,7 @@ export default function Content() {
           <div className="more-info">
             <p className="more">
               <span className="c-link">
-                Comment vous connecter à votre espace client ?
+                Comment activer votre carte Mastercard&reg; la première fois ?
               </span>
               <img
                 loading="lazy"
@@ -101,22 +101,7 @@ export default function Content() {
           <div className="more-info">
             <p className="more">
               <span className="c-link">
-                Comment vous connecter à votre espace client ?
-              </span>
-              <img
-                loading="lazy"
-                alt=""
-                src="/images/more.png"
-                width="47"
-                height="47"
-                class="fleche-Icon"
-              />
-            </p>
-          </div>
-          <div className="more-info">
-            <p className="more">
-              <span className="c-link">
-                Comment vous connecter à votre espace client ?
+                Comment bloquer ou débloquer votre carte Mastercard&reg; ?
               </span>
               <img
                 loading="lazy"
