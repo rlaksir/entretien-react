@@ -215,21 +215,17 @@
         margin-left: -49%;
     }
 }
-*/
+
 @media screen and (min-width: 64em){
     .f-div{
         border-top: 80px solid #ff6200;
         display: flex;
-        margin-top: 0%;
+        margin-top: 0.002%;
     }
-    .s-div{
-        margin-top: 0%;
-        margin-left: 15%;
-        margin-right: 0%;
-    }
+
     .c-description{
         margin-top: 11%;
         margin-left: -49%;
     } 
     
-}
+}*/
