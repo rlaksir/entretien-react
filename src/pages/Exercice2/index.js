@@ -19,7 +19,7 @@ export default function Exercice2() {
     <div>
       {userData.map((user) => (
         <div className="card" style={{ width: "18rem" }} key={user.id}>
-          <img src={user.avatar_url} />
+          <img src={user.avatar_url} alt="avatar"/>
           <div className="card-body">
             <h5 className="card-title">{user.login}</h5>
             <p className="card-text">{}</p>
